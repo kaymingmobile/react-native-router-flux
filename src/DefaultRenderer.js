@@ -7,8 +7,7 @@
  *
  */
 import React, {
-  PureComponent,
-  PropTypes,
+  PureComponent
 } from 'react';
 import {
   Animated,
@@ -17,6 +16,7 @@ import {
   Dimensions,
 } from 'react-native';
 import NavigationExperimental from 'react-native-experimental-navigation';
+import PropTypes from 'prop-types'; // ES6
 
 import TabBar from './TabBar';
 import NavBar from './NavBar';
